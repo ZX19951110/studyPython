@@ -4,6 +4,5 @@ def move(n,a,b,c):
         return
     move(n-1,a,c,b)
     move(1,a,b,c)
-    print(n)
     move(n-1,b,a,c)
 move(3,"a","b","c")
