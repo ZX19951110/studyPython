@@ -16,6 +16,21 @@ class spider_test(object):
             bs = BeautifulSoup(html,'lxml')
             tr_list = bs.find('tbody')
             for tr in tr_list.children:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 i = 0
                 for td in tr:
                     if i == 15:
